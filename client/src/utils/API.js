@@ -1,5 +1,5 @@
 // get logged in user's info 
-const API_url = "https://fitnessserver-bceg.onrender.com"
+const API_url = "https://web-development-1-h5yf.onrender.com"
 export const getMe = (token) => {
   return fetch(API_url+ '/api/user/me', {
     headers: {
